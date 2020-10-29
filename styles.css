@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+
+:root {
+    --color-back: #282a36;
+    --color-line: #44475a;
+    --color-selection: #44475a;
+    --color-selection: #f8f8f2;
+    --color-comment: #6272a4;
+    --color-cyan: #8be9fd;
+    --color-green: #50fa7b;
+    --color-orange: #ffb86c;
+    
+
+
+
+--color-pink: #ff79c6;
+    --color-purple: #bd93f9;
+    --color-red: #ff5555;
+    --color-yellow: #f1fa8c;
+}
+
+body {
+    background-color: var(--color-back);
+    color: #f8f8f2;
+}
+
+.cards {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info__card {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--color-comment);
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+}
+
+.ling img {
+    height: 45px;
+    padding: 5px;
+}
+
+.card__image img {
+    height: 300px;
+}
