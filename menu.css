@@ -1,0 +1,64 @@
+.navMenu{
+  
+    background-color: rgba(0, 0, 0,0.4) ; 
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    }
+    .bordasMenu{
+    display:inline-block;
+    padding: 0;
+    
+    }
+    .bordasMenu > li {
+        margin-right: 15px;
+    
+    display: inline-block;
+    list-style: none;
+    
+    }
+    .bordasMenu > li > a{
+    
+        padding: 0 10px;
+        color: black;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        
+    }
+    .bordasMenu > li > a:hover{
+        text-decoration: underline;
+    }
+    .bordasMenu > li:hover > ul{
+        display: block;
+    }
+    .subMenu{
+        position: absolute;
+        top: 10.4%;
+        padding: 0  ;
+        width: 190px;
+        margin: 0;
+       background-color:black;
+       display: none;
+       transform: translateX(-40px);
+    
+    }
+    .subMenu > li{
+        list-style:none;
+        padding: 0;
+        height: 100%;
+    
+    }
+    .subMenu > li > a{
+     display: block;
+    padding: 0px 0;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    border: white;
+    text-align: center;
+    
+    }
+    .subMenu > li > a:hover{
+        background-color: rgb(36, 35, 35);
+    }
