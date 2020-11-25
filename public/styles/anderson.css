@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+
+:root {
+    --color-back: #282a36;
+    --color-line: #44475a;
+    --color-selection: #44475a;
+    --color-selection: #f8f8f2;
+    --color-comment: #6272a4;
+    --color-cyan: #8be9fd;
+    --color-green: #50fa7b;
+    --color-orange: #ffb86c;
+    --color-pink: #ff79c6;
+    --color-purple: #bd93f9;
+    --color-red: #ff5555;
+    --color-yellow: #f1fa8c;
+
+    --color-mimi: #7159c1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: var(--color-back);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  background: var(--color-back);
+}
+
+.logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.logo h1 {
+  color: var(--color-pink);
+  font-size: 62px;
+}
+
+.logo p {
+  font-size: 82px;
+  color: var(--color-mimi);
+}
+
+.logo img {
+  width: 250px;
+}
+
+.menu {
+  padding: 10px;
+  word-spacing: 52px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--color-green);
+  font-size: 24px;
+}
+
+.const {
+  padding: 10px;
+  background: var(--color-mimi);
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.port {
+  text-align: center;
+  color: var(--color-back);  
+}
+
+.port img {
+  padding: 20px;
+  width: 100px;
+}
+
+.text {
+  text-align: center;
+  line-height: 42px;
+}
+
+.text img {
+  width: 200px;
+  border-radius: 24px;
+}
+
+.text h1 {
+  color: #282a36;
+  font-size: 44px;
+}
+
+.text p {
+  color: var(--color-yellow);
+  font-weight: bold;
+}
+
+.links-footer {
+  word-spacing: 18px;
+}
+
+.links-footer a {
+  text-decoration: none;
+  color: #50fa7b;
+}
+
+.footer {
+  font-size: 14px;
+  color: var(--color-mimi);
+  text-align: center;
+  padding: 20px;
+  background: var(--color-back);
+}
+
+.footer p a {
+  text-decoration: none;
+  color: var(--color-mimi);
+  line-height: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
